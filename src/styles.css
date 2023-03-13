@@ -1,0 +1,127 @@
+.container {
+  display: block;
+  position: relative;
+  top: 200px;
+
+  text-align: center;
+  color: #7f669d;
+  margin: auto;
+  padding: 0%;
+  width: fit-content;
+  align-content: center;
+  justify-content: center;
+  z-index: 1;
+  font-weight: 300;
+}
+body {
+  background-color: #f3ccff;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.profile {
+  opacity: 1;
+  position: relative;
+  left: 300px;
+  top: -250px;
+  padding: 5%;
+  width: 300px;
+  float: right;
+  z-index: 1;
+}
+
+section {
+  min-height: 100vh;
+}
+
+.form-check {
+  width: fit-content;
+  left: 600px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  top: 80vh;
+}
+.line {
+  display: inline-block;
+  opacity: 0.5;
+  margin: auto;
+  height: 100vh;
+  width: 10px;
+  position: relative;
+  left: 400px;
+  background-color: #7f669d;
+}
+.logo {
+  border-radius: 100%;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: #f3ccff;
+
+  font-weight: 500;
+}
+.nav-link:hover {
+  color: #7f669d;
+}
+#navbarNav {
+  justify-content: flex-end;
+}
+.card {
+  visibility: hidden;
+  background-color: #f3ccff;
+  border-radius: 8px;
+  border: 1px solid #f3ccff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  box-sizing: border-box;
+  width: 200px;
+  height: 200px;
+  transition: all linear 200ms;
+  margin-bottom: 5%;
+}
+.card:hover {
+  transform: scale(1.1);
+  transition: all linear 200ms;
+  z-index: 1;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.react {
+  padding: 0;
+}
+.html {
+  padding: 25 0 0 25;
+}
+.Resume {
+  height: 75vh;
+  display: flex;
+  width: fit-content;
+  align-content: center;
+  justify-content: center;
+  padding-top: 5%;
+  margin-top: 250px;
+  margin-left: 285px;
+  color: #7f669d;
+}
+.Resume1{
+  margin-left: 100px;
+}
+.but{
+  padding-left: 0;
+  background-color:#6a34ad ;
+  color: #ffff;
+  text-align: center;
+  
+}
+.link{
+  color:#7f669d;
+}
+.link:hover{
+  color:#6a34ad
+}
